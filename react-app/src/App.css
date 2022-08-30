@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 15vh;
+  border: 4px double black;
+  width: 30%;
+}
+
+#owner-name {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Pacifico';
+}
+
+.address-elem {
+  list-style: none;
+}
+
+.list-title {
+  font-family: 'Libre Baskerville';
+}
+
+ul {
+  margin: 0; padding: 0;
+}
+
+li {
+  font-family: 'Source Code Pro';
+}
+
+#dislikes {
+  margin-bottom: 4vh;
+}
