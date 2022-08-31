@@ -1,7 +1,9 @@
 import './App.css';
+import Footer from './Footer.jsx';
 
 function App() {
   return (
+    <>
     <div className="App">
       <h1 id="owner-name">Alex Dinu</h1>
       <h2 className="list-title">Address</h2>
@@ -24,6 +26,8 @@ function App() {
         <li>Sparkling Water</li>
       </ul>
     </div>
+    <Footer />
+    </>
   );
 }
 
