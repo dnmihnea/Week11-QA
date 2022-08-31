@@ -8,7 +8,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img alt="logo" src="./conk.jpeg" width="50px" height="50px"></img>
+                    <img alt="logo" src={require("./conk.jpeg")} width="150px" height="150px"></img>
                 </a>
             </nav>
         </footer>
