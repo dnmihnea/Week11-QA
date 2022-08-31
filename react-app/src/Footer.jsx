@@ -1,3 +1,4 @@
+import './App.css';
 const Footer = () => {
     return (
         <footer>
@@ -8,7 +9,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <img alt="logo" src={require("./conk.jpeg")} width="150px" height="150px"></img>
+                    <img id ="conk" alt="logo" src={require("./conk.jpeg")} width="150px" height="150px"></img>
                 </a>
             </nav>
         </footer>
