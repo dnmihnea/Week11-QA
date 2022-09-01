@@ -5,7 +5,7 @@ const Footer = () => {
             <nav className="navbar navbar-expand-sm">
                 <a
                     className="nav-brand"
-                    href="http://www.qa.com"
+                    href="https://knowyourmeme.com/memes/cement-das-conk-creet-baybee"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

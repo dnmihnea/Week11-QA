@@ -1,8 +1,14 @@
 import './App.css';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
-import Clock from './Clock.jsx';
-import Movies from './components/Prop.jsx';
+import Clock from './lifecycle/Clock.jsx';
+import Movies from './props/Prop.jsx';
+import Car from './state/Car.jsx';
+import Login from './state/Exercise.jsx';
+import Game from './lifting state/Game.jsx';
+import Shopping from './hooks/Shopping.jsx';
+import LessText from './hooks/LessText.jsx';
+import Greet from './hooks/Greet.jsx';
 
 function App() {
   const address = {
@@ -14,7 +20,6 @@ function App() {
   return (
     <>
     <Header />
-    <Movies />
     <div className="App">
       <h1 id="owner-name">{address.fullname}</h1>
       <h2 className="list-title">Address</h2>
@@ -38,6 +43,11 @@ function App() {
       </ul>
     </div>
     <Clock />
+    <Movies />
+    <Car />
+    <Login />
+    <Game />
+    <Shopping />
     <Footer />
     </>
   );
