@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Clock from './Clock.jsx';
-import Prop from './components/Prop.jsx';
+import Movies from './components/Prop.jsx';
 
 function App() {
   const address = {
@@ -14,6 +14,7 @@ function App() {
   return (
     <>
     <Header />
+    <Movies />
     <div className="App">
       <h1 id="owner-name">{address.fullname}</h1>
       <h2 className="list-title">Address</h2>
